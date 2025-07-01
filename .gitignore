@@ -1,0 +1,53 @@
+# Игнорирование временных файлов и папок
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорирование виртуальной среды
+venv/
+ENV/
+env/
+.venv/
+.venv2/
+.venv3/
+virtualenv/
+
+# Игнорирование IDE-файлов
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Игнорирование логов и баз данных
+*.log
+*.sqlite3
+*.db
+
+# Игнорирование дистрибутивов и бинарных файлов
+/dist/
+/build/
+/egg-info/
+*.egg
+*.egg-info/
+*.whl
+
+# Игнорирование файлов операционной системы
+.DS_Store
+Thumbs.db
+
+# Игнорирование тестовых файлов (если они генерируются автоматически)
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Игнорирование временных файлов HTTP-клиента
+*.http
+*.HTTP
+*.json # Если JSON-файлы создаются автоматически
+
+# Игнорирование пользовательских файлов
+.env
+.env.local
+.secrets
